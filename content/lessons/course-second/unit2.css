@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.main {
+    padding-top: 40px;
+    background-color: #f0f1ef !important;
+    padding-bottom: 40px;
+}
+
+.reading_title {
+    color: #2B6ADE;
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.reading_flex {
+    display: flex;
+}
+
+.reading_left {
+    padding-right: 20px;
+}
+
+.reading_right {
+    padding-left: 20px;
+}

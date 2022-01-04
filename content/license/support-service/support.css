@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 50px;
+    background-color: #4366dd;
+}
+
+.nav_support {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.nav {
+    justify-content: center !important;
+}
+
+.main {
+    padding-top: 15px !important;
+}
+
+.support_img {
+    height: 85vh;
+    background: url('../../../assets/img/license/fatfat.png') center no-repeat;
+    background-size: cover;
+}
+
+.support_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search {
+    width: 800px;
+    margin-top: 30px;
+}
+
+.search__help {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    display: none;
+    overflow: scroll;
+    max-height: 250px;
+    height: auto;
+}
+
+.search-panel {
+    width: 640px !important; 
+    position: relative;
+    left: 80px;
+    top: -30px !important; 
+}
+
+.nothing {
+    display: none;
+    margin-top: 10px;
+}
+
+.search__link {
+    text-decoration: none;
+    color: black;
+}
+
+li:first-child {
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.form-control {
+    padding: .75rem .75rem !important;
+}
+
+.footer {
+    margin-bottom: 40px;
+}
+
+.footer_link {
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+.footer_link:first-child {
+    padding-left: 0;
+}
+
+.footer_center {
+    margin: 0 auto;
+}

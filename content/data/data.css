@@ -1,0 +1,60 @@
+.headers {
+    background-color: #184362;
+    height: 110px;
+    width: 100vw;
+    z-index: 40;
+}
+
+.logo__block {
+    width: 500px;
+    height: 180px;
+    position: relative;
+    top: 15px;
+    margin: 0 auto;
+}
+
+.logos {
+    float: left;
+    position: relative;
+    top: -5px;
+    left: 100px;
+}
+
+.change {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+
+.save-btn {
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 30px;
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.form-control {
+    width: 25% !important;
+}
+
+.sec {
+    margin-left: 20px !important;
+}
+
+.header_admin {
+    margin-top: 50px;
+}
+
+.admin_block {
+    text-align: center;
+}
+
+.inputs {
+    margin: 0 auto;
+    width: 550px !important;
+}

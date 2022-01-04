@@ -1,0 +1,187 @@
+@font-face {
+	font-family: 'MyriadPro';
+    src: url('../../font/MyriadPro-Regular.eot');
+	src: local('☺'), url('../../font/MyriadPro-Regular.woff') format('woff'), url('../../font/MyriadPro-Regular.ttf') format('truetype'), url('../../font/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadPro';
+    src: url('../../font/MyriadPro-Bold.eot');
+	src: local('☺'), url('../../font/MyriadPro-Regular.woff') format('woff'), url('../../font/MyriadPro-Regular.ttf') format('truetype'), url('../../font/MyriadPro-Regular.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CANDARAB';
+    src: url('../../assets/font/CANDARAB.eot');
+	src: local('☺'), url('../../assets/font/CANDARAB.woff') format('woff'), url('../../assets/font/CANDARAB.ttf') format('truetype'), url('../../assets/font/CANDARAB.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f3;
+}
+
+.headers {
+    background-color: #184362;
+    height: 210px;
+    width: 100vw;
+    position: fixed;
+    z-index: 40;
+}
+
+.logo__fixed {
+    position: relative;
+    z-index: 40;
+    top:-210px;
+}
+
+.logo__not-fixed {
+    position: relative;
+    z-index: 40; 
+}
+
+.logo__block {
+    width: 500px;
+    height: 180px;
+    position: relative;
+    top: 15px;
+    margin: 0 auto;
+}
+
+.logos {
+    float: left;
+}
+
+.union__business {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 20px;
+    letter-spacing: 1.2px;
+}
+
+.union__title {
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo__text {
+    position: relative;
+    top: 30px;
+}
+
+.my__profile {
+    background-color: #0c1531;
+    height: 50px;
+    margin-top: 210px;
+    margin-bottom: 5px;
+}
+
+.btnn {
+    background-color: #2c6bde;
+    border: none;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'CANDARAB', sans-serif; 
+}
+
+.btn-pos {
+    text-align: right;
+    position: relative;
+    top: 7px;
+}
+
+.block__text {
+    background-color: #2b6ade;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.welocme {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.welcome__text {
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.btn-search {
+    background-color: #c2e812;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    font-family: 'CANDARAB', sans-serif; 
+}
+
+.time {
+    margin-top: 40px;
+    background-color: #c2e812;
+}
+
+.res__title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    
+}
+
+.btnq {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'CANDARAB', sans-serif; 
+}
+
+.btn-posit {
+    position: relative;
+    top: 70px;
+    margin-left: 100px;
+    border-left: 1px solid white;
+    padding-left: 100px;
+}
+
+.images {
+    padding-top: 20px;
+}
+
+.add {
+    margin-top: 30px;
+}
+
+
+.add__text {
+    color: #2b6ade;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.add__sub {
+    font-family: 'CANDARAB';
+    margin-top: 10px;
+}
+
+.texts {
+    font-family: 'CANDARAB';
+}
+
+.img__title {
+    color: #2b6add;
+}
+
+.modal-footer {
+    border-top: none !important;
+}

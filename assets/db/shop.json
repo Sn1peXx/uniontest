@@ -1,0 +1,50 @@
+[
+    {
+        "category": "Accessories",
+        "name": "The Organic Cotton Crew",
+        "price": 24,
+        "desc": "Black T-Shirt with logo print",
+        "img": ["../../../assets/img/shop-img/product/tshirt.png"],
+        "count": 4,
+        "tagline": "Live with the hot once",
+        "sex": "unisex",
+        "material": "100% cotton", 
+        "id": "idd001"
+    },
+    { 
+        "category": "Accessories",
+        "name": "The Organic Cotton Crew",
+        "price": 30,
+        "desc": "Black T-Shirt with logo print",
+        "img": ["../../../assets/img/shop-img/product/t_shirt_1_1000x.jpg"],
+        "count": 4,
+        "tagline": "Live with the hot once",
+        "sex": "unisex",
+        "material": "100% cotton", 
+        "id": "idd002"
+    },
+    {
+        "category": "Accessories",
+        "name": "Кепарик",
+        "price": 15,
+        "desc": "Black T-Shirt with logo print",
+        "img": ["../../../assets/img/shop-img/product/lego_skull_hat_black_1_1000x.jpg"],
+        "count": 1,
+        "tagline": "Live with the hot once",
+        "sex": "unisex",
+        "material": "100% cotton", 
+        "id": "idd003"
+    },
+    {
+        "category": "Accessories",
+        "name": "Crew",
+        "price": 45,
+        "desc": "Black T-Shirt with logo print",
+        "img": ["../../../assets/img/shop-img/product/hoodie_bedlam_axis_2_1000x.jpg"],
+        "count": 2,
+        "tagline": "Live with the hot once",
+        "sex": "unisex",
+        "material": "100% cotton", 
+        "id": "idd004"
+    }
+]

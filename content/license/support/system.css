@@ -1,0 +1,42 @@
+.main__text {
+    text-transform: uppercase;
+    background-color: #194462;
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.info__about {
+    color: #648fe6;
+    margin: 0 auto;
+    width: 66%;
+    margin-top: 10px;
+}
+
+.info__help {
+    color: #648fe6;
+    margin: 0 auto;
+    width: 66%;
+    margin-top: 50px;
+}
+
+.status {
+    text-transform: uppercase;
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 45px;
+    margin-bottom: 150px;
+}
+
+.sucess {
+    background-color: #167742;
+}
+
+.fail {
+    background-color: #c6090a;
+}

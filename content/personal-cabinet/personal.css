@@ -1,0 +1,377 @@
+@font-face {
+	font-family: 'MyriadPro';
+    src: url('../../assets/font/MyriadPro-Regular.eot');
+	src: local('☺'), url('../../assets/font/MyriadPro-Regular.woff') format('woff'), url('../../assets/font/MyriadPro-Regular.ttf') format('truetype'), url('../../assets/font/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ 
+@font-face {
+	font-family: 'MyriadPro';
+    src: url('../../assets/font/MyriadPro-Bold.eot');
+	src: local('☺'), url('../../assets/font/MyriadPro-Regular.woff') format('woff'), url('../../assets/font/MyriadPro-Regular.ttf') format('truetype'), url('../../assets/font/MyriadPro-Regular.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CANDARAB';
+    src: url('../../assets/font/CANDARAB.eot');
+	src: local('☺'), url('../../assets/font/CANDARAB.woff') format('woff'), url('../../assets/font/CANDARAB.ttf') format('truetype'), url('../../assets/font/CANDARAB.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.logo {
+    position: absolute;
+}
+
+.logo__down {
+    opacity: .3;
+}
+
+.search {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.search-panel {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+.nav {
+    justify-content: flex-end
+}
+
+.nav__link {
+   margin-left: 15px;
+   cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.active__nav {
+    border: 1px solid inherit;
+    border-radius: 5px;
+    padding: 0 20px;
+    background-color: #c2e812;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.main {
+    padding-top: 40px;
+    background-color: #f0f1ef !important;
+    padding-bottom: 40px;
+}
+
+.service__block {
+    border: 0px solid #f5f6f4;
+    background-color: #f5f6f4;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.service__info {
+    display: flex;
+    cursor: pointer;
+    border: 0px solid #f5f6f4;
+    background-color: #f5f6f4;
+    margin-top: 15px;
+}
+
+.servise__text {
+    position: relative;
+    top: 8px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.service__img {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.servise__more {
+    margin-left: auto;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    left: -4px;
+}
+
+.servise__more-close {
+    margin-left: auto;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    left: -8px;
+}
+
+.ielts {
+    width:50%;
+    height: 100%;
+    background-color: #184362;
+    border-radius: 10px;
+}
+
+.title__text {
+    color: white;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.ielts__nav {
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+
+.ielts__nav-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: -10px;
+    font-size: 14px;
+}
+
+.ielts__nav-item:first-child {
+    padding-top: 10px;
+}
+
+.ielts__nav-item:last-child {
+    padding-bottom: 10px;
+}
+
+.ielts__nav-item:hover {
+    color:hotpink;
+    transition: .2s;
+}
+
+.ielts__text {
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.ielts__text:hover {
+    color:hotpink;
+    transition: .2s;
+} 
+
+.link-ielts {
+    color: black;
+    text-decoration: none;
+}
+
+.link-ielts:hover {
+    color:hotpink;
+    transition: .3s; 
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    opacity: .2;
+}
+
+.accordion__text {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    font-family: 'CANDARAB';
+}
+
+.new__item {
+    margin-bottom: 220px;
+}
+
+.news__img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 300px;
+}
+
+.news__title {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.question {
+    border: 1px solid #b8b8b7;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+.often__question {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.often__question-title {
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 400;
+    background-color: #c2e812;
+}
+/* 
+.footer {
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.footer__item-main {
+    margin-bottom: 10px;
+}
+
+.footer__item-link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-social {
+    display: flex;
+} */
+
+.social {
+    margin-left: 10px;
+}
+
+.social:first-child {
+    margin-left: 0;
+}
+
+.more {
+    display: none;
+    background-color: #f5f6f4;
+}
+
+.block__blue {
+    background-color: #1a4461;
+    height: 30%;
+}
+
+.block__gray {
+    background-color: #dfdddd;
+    height: 70%;
+}
+
+.block {
+    height: 700px;
+    margin-top: 60px;
+}
+
+.info {
+    background-color: white;
+    height: 600px;
+    width: 90%;
+    position: relative;
+    margin-top: -650px;
+    left: 65px;
+}
+
+.title {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.title__img {
+    border-radius: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.title__info {
+    display: flex;
+    position: relative;
+    align-items:center;
+    left: -25px;
+    top: -5px;
+}
+
+.info__name {
+    color: #1a4461
+}
+
+.info__cab {
+    padding-left: 20px;
+    color: #1a4461;
+}
+
+.user__info {
+    padding-left: 30px;
+}
+
+.user__text {
+    color: #1a4461;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.mail__text {
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.mail {
+    padding-left: 20px;
+    color: #1357a6;
+    padding-bottom: 20px;
+}
+
+.country__text {
+    font-weight: 700;
+}
+
+.country {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.profile__type {
+    font-weight: 700;
+}
+
+.type {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.user__id {
+    display: flex;
+    margin-left: 10px;
+}
+
+.your__id {
+    padding-right: 5px;
+}

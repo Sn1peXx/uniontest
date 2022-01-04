@@ -1,0 +1,35 @@
+.password__block {
+    background-color: #e9eaea;
+}
+
+.current__password {
+    position: relative;
+    left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.new__password {
+    position: relative;
+    left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.alert {
+    width: 1080px !important;
+}
+
+.title__img {
+    margin-right: 50px;
+}
+
+.title__info {
+    margin-top: 20px;
+}
+
+.title__img {
+    cursor: pointer;
+    border-radius: 50% !important;
+    margin-bottom: 30px;
+}

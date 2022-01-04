@@ -1,0 +1,71 @@
+.login_title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 27px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.login_inputs {
+    text-align: center;
+}
+
+.login_form {
+    width: 400px;
+    margin-top: 25px;
+    border: 2px solid black
+}
+
+.login_form_reg:first-child {
+    margin-top: 25px;
+}
+
+.login_form_reg {
+    width: 400px;
+    margin-top: 15px;
+    border: 2px solid black
+}
+
+.login_add {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.login_link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login_forgot {
+    text-align: left;
+}
+
+.login_signin {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.login_signin:hover{
+    transition: .6s;
+    transform: scale(1.05);
+    /* border-radius: 10px */
+}
+
+.login_signin:not(hover) {
+    transition: .6s;
+}
+
+.reg-inputs {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,187 @@
+.main {
+    padding-top: 20px !important;
+}
+
+.attestation {
+    width: 95%;
+    min-height: 100%;
+    background-color: #f4f6f3;
+    margin: 0 auto;
+}
+
+.att_block {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.att_round {
+    background-color: #2b69dd;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.att_img {
+    position: relative;
+    left: 3px;
+}
+
+.att_title-block {
+    display: flex;
+}
+
+.att_title {
+    color: #2b69dd;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.arr_desc {
+    width: 85%;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.attestation_tma {
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+.attestation_green {
+    width: 5px;
+    height: 100px;
+    background-color: #c1e812;
+}
+
+.attestation_main {
+    width: 700px;
+    height: 100px;
+    background-color: #e7e7e7;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.att_left-block {
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.arr_left-round {
+    background-color: #b3b1b1;
+    padding: 5px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+}
+
+.arr_left-img {
+    position: relative;
+    top: 7px;
+    left: 12px;
+}
+
+.arr_block {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.arr_date {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.arr_text {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.arr_tma-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.arr_block {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.arr_date {
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+}
+
+.att_block-button {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.att_pass {
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    padding: 3px 7px;
+}
+
+.att_result {
+    background-color: #2b69dd;
+    color: white;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 4px;
+}
+
+.att_block-result {
+    margin-left: 140px;
+    margin-top: 7px;
+}
+
+.text_scores {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+    left: 10px;
+}
+
+.score {
+    background-color: #1a8272;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.not_done {
+    background-color: #2b69dd;
+}
+
+.not_done-color {
+    color: white;
+}
+
+.not_done-result {
+    background-color: white;
+    color: black;
+}
+
+.not_done-round {
+    background-color: #f79f41;
+}
+
+.not_done-scroll {
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: -15px;
+}

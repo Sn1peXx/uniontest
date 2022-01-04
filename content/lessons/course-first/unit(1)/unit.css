@@ -1,0 +1,367 @@
+@font-face {
+	font-family: 'CANDARAB';
+    src: url('../../../../assets/font/CANDARAB.eot');
+	src: local('☺'), url('../../../../assets/font/CANDARAB.woff') format('woff'), url('../../../../assets/font/CANDARAB.ttf') format('truetype'), url('../../../../assets/font/CANDARAB.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadPro';
+    src: url('../../../../assets/font/MyriadPro-Regular.eot');
+	src: local('☺'), url('../../../../assets/font/MyriadPro-Regular.woff') format('woff'), url('../../../../assets/font/MyriadPro-Regular.ttf') format('truetype'), url('../../../../assets/font/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadPro';
+    src: url('../../../../assets/font/MyriadPro-Bold.eot');
+	src: local('☺'), url('../../../../assets/font/MyriadPro-Regular.woff') format('woff'), url('../../../../assets/font/MyriadPro-Regular.ttf') format('truetype'), url('../../../../assets/font/MyriadPro-Regular.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+.logo {
+    position: absolute;
+}
+
+.logo__down {
+    opacity: .3;
+}
+
+.search {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.search-panel {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+.nav {
+    justify-content: flex-end
+}
+
+.nav__link {
+   margin-left: 15px;
+   cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.active__nav {
+    border: 1px solid inherit;
+    border-radius: 5px;
+    padding: 0 20px;
+    background-color: #c2e812;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.line {
+    background-color: #184362;
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+}
+
+.line__text {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.line__item {
+    position: relative;
+    top: 7px; 
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.line__item:hover {
+    transition: .2s ease-in;
+    color: white;
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+.all__week {
+    position: relative;
+    top: -60px;
+    left: 60px;
+    width: 20%;
+    background-color: #2b69de;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.week__text {
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.active__subnav {
+    border: 1px solid inherit;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: #c2e812;
+    text-decoration: none;
+}
+
+
+.info__content {
+    width: 100%;
+    background-color: #b8b8b6;
+    height: 250px;
+}
+
+.info__week {
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+    left: 50px;
+    display: flex;
+}
+
+.week__number {
+    border: 2px solid #fff;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+
+.week__block {
+    position: relative;
+    background-color: #b8b8b6;
+    height: 30px;
+    left: -70px;
+    top: -15px;
+    color: white;
+
+}
+
+.info__title {
+    color: white;
+    margin-left: -15px;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.block {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 0;
+}
+
+.block__item {
+    background-color: #2b69de;
+    margin-left: 5px;
+    width: 300px;
+    height: 90px;
+    border-radius: 5px 5px 0 0;
+    border: inherit;
+}
+
+.block__item:hover {
+    background-color: white;
+    transition: .4s ease;
+}
+
+.block__item:hover .block__title {
+    color: black;
+    transition: .4s ease;
+}
+
+.block__item:hover .chapter {
+    color: black;
+    transition: .4s ease;
+}
+
+.active__lesson {
+    background-color: white;
+    color: #3986bdc9;
+}
+
+.block__item:first-child {
+    margin-left: 50px;
+}
+
+.block__title {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -30px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+
+.active__lesson .block__title {
+    color: black;
+}
+
+.active__lesson .chapter {
+    color: black;
+}
+
+.block__title:hover {
+    color: black;
+}
+
+.chapter {
+    text-align: right;
+    color: white;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.tab {
+    flex-direction: row;
+    display: flex;
+}
+
+.tab__nav {
+    width: 25%;
+}
+
+.tab__text {
+    position: relative;
+    left: -80px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+p {
+    margin: 0; padding: 0;
+}
+
+.btn__nav {
+    background-color: white;
+    padding: 5px 100px;
+    border: inherit;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);    
+}
+
+
+.btn__nav.active {
+    background-color: #105be7ce;
+}
+
+.tab__content {
+    max-width: 70%;
+    width: 100%;
+}
+
+.tabs__item {
+    display: none;
+}
+
+.tabs__item.active {
+    display: block;
+}
+
+.content {
+    position: relative;
+    top: 200px;
+    margin-left: -1000px;
+    margin-right: 100px;
+}
+
+
+/* TAB */
+
+.tab__item {
+    width: 700px;
+}
+
+.tab__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #2c6ade;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.tab__simple-text {
+    font-family: 'MyriadPro';
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.tab__time {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.book_matk {
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+
+.tab__img {
+    margin-top: 30px;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.radio, .radio2, .radio3 {
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.answ {
+    margin-left: 6px;
+    margin-top: -30px;
+}
+
+.form {
+    margin-bottom: 30px !important;
+}
+
+.modal-body {
+    padding: 2rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+.link_prompt {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}

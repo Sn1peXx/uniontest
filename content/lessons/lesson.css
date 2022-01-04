@@ -1,0 +1,222 @@
+@font-face {
+	font-family: 'CANDARAB';
+    src: url('../../assets/font/CANDARAB.eot');
+	src: local('☺'), url('../../assets/font/CANDARAB.woff') format('woff'), url('../../assets/font/CANDARAB.ttf') format('truetype'), url('../../assets/font/CANDARAB.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+.line {
+    background-color: #184362;
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+}
+
+.line__text {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.line__item {
+    position: relative;
+    top: 7px; 
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.line__item:hover {
+    transition: .2s ease-in;
+    color: white;
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+.all__week {
+    position: relative;
+    top: -60px;
+    left: 60px;
+    width: 20%;
+    background-color: #2b69de;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.week__text {
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.active__subnav {
+    border: 1px solid inherit;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: #c2e812;
+    text-decoration: none;
+}
+
+.name__head {
+    position: absolute;
+    top: 250px;
+    margin-left: 65px;
+}
+
+.tit__head {
+    color: #184362;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    margin-right: 50px;
+}
+
+.progress {
+    width: 350px;
+}
+
+.tit {
+    display: flex;
+}
+
+.prep__head {
+    margin-left: 20px;
+    margin-top: 8px;
+    color: #184362;
+    font-family: 'CANDARAB', serif;
+}
+
+.borderr {
+    width: 1px;
+    height: 40px;
+    background-color: black;
+}
+
+.tutor {
+    position: relative;
+    top: -60px;
+}
+
+.tutor .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: inherit !important;
+}
+
+.tutor .accordion-button {
+    background-color: #c2e812 !important;
+    padding: 10px 30px !important;
+    color: black !important; 
+    height: 50px !important; 
+}
+
+.tutor .accordion-button::after {
+    background-image: url('../../assets/img/servise/expand_more_black_48dp.svg') !important;
+    background-size: 1.6rem !important;
+}
+
+.tutor .accordion-button:not(.collapsed)::after {
+    background-image: url('../../assets/img/servise/expand_more_black_48dp.svg') !important;
+    background-size: 1.6rem !important;
+}
+
+
+.accordion-button {
+    background-color: #2b69de !important;
+    padding: 0px 30px !important;
+    color: white !important; 
+    height: 100px !important; 
+}
+
+.done .accordion-button {
+    background-color: #dfdddd !important;
+    color: black !important; 
+}
+
+.done .accordion-button::after {
+    background-image: url('../../assets/img/servise/expand_more_black_48dp.svg') !important;
+    background-size: 1.6rem !important;
+}
+
+.done .accordion-button:not(.collapsed)::after {
+    background-image: url('../../assets/img/servise/expand_more_black_48dp.svg') !important;
+    background-size: 1.6rem !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../../assets/img/servise/expand_more_white_48dp.svg') !important;
+    background-size: 1.6rem !important;
+}
+
+.accordion-button::after {
+    background-image: url('../../assets/img/servise/expand_more_white_48dp.svg') !important;
+    background-size: 1.6rem !important;
+}
+
+h5 {
+    padding: 0;
+    margin: 0; 
+}
+
+.number__acc {
+    font-size: 30px;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.text__acc {
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    left: 28px;
+    background-color: #2b69de;
+    width: 44px;
+}
+
+.done .number__acc {
+    font-size: 30px;
+    border: 2px solid black;
+    width: 100px;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.done .text__acc {
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    left: 28px;
+    background-color: #dfdddd;
+    width: 44px;
+}
+
+.name__lesson {
+    position: relative;
+    top: 0px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.lesson__date {
+    position: relative;
+    top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.count {
+    margin-bottom: 30px;
+}

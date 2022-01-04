@@ -1,0 +1,110 @@
+.my__profile {
+    margin-top: 60px;
+    border: 15px solid #1a4461;
+    border-radius: 10px;
+}
+
+.profile__title {
+    color: white;
+    background-color: #1a4461;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+.profile__round {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #eeeeee;
+    border-radius: 50px;
+}
+
+.profile__content {
+    margin-left: 10px;
+}
+
+.profile__img {
+    position: relative;
+    top: 8px;
+    left: -2px;
+}
+
+.profile__info {
+    display: flex;
+}
+
+.prfile__link {
+    display: flex;
+}
+
+.profile__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile__text {
+    font-size: 15px;
+}
+
+.prfile__link {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.link__text {
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+
+.profile__main {
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+
+.add {
+    margin-top: 60px;
+}
+
+/* RECORDS */
+
+.accordion-button:focus {
+    border-color: white !important;
+    box-shadow: none !important;
+}
+
+.accordion-button {
+    background-color: #dfdddd !important;
+    border-radius: 7px !important;
+    font-weight: 400 !important;
+    font-size: 20px !important; 
+}
+
+.accordion {
+    padding-left: 30px !important;
+    padding-right: 30px !important;   
+    margin-bottom: 10px !important;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+}
+
+.button {
+    margin: 40px 0 20px 30px;
+}
+
+.btn-success {
+    background-color: #c3e634 !important;
+    border-color: #c3e634 !important;
+}
+
+.block_check {
+    height: 5px;
+    width: 0%;
+    margin-top: 5px;
+    transition: 1s;
+}
