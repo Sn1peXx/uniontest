@@ -1,21 +1,46 @@
 @font-face {
 	font-family: 'MyriadPro';
-    src: url('../font/MyriadPro-Regular.eot');
-	src: local('☺'), url('../font/MyriadPro-Regular.woff') format('woff'), url('../font/MyriadPro-Regular.ttf') format('truetype'), url('../font/MyriadPro-Regular.svg') format('svg');
+    src: url('../font/Myriad/MyriadPro-Regular.eot');
+	src: local('☺'), url('../font/Myriad/MyriadPro-Regular.woff') format('woff'), url('../font/Myriad/MyriadPro-Regular.ttf') format('truetype'), url('../font/Myriad/MyriadPro-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'MyriadPro';
-    src: url('../font/MyriadPro-Bold.eot');
-	src: local('☺'), url('../font/MyriadPro-Regular.woff') format('woff'), url('../font/MyriadPro-Regular.ttf') format('truetype'), url('../font/MyriadPro-Regular.svg') format('svg');
+    src: url('../font/Myriad/MyriadPro-Bold.eot');
+	src: local('☺'), url('../font/Myriad/MyriadPro-Regular.woff') format('woff'), url('../font/Myriad/MyriadPro-Regular.ttf') format('truetype'), url('../font/Myriad/MyriadPro-Regular.svg') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Helvetica';
+    src: url('../font/Helvetica/HelveticaNeueCyr-Light.eot');
+	src: local('☺'), url('../font/Helvetica/HelveticaNeueCyr-Light.woff') format('woff'), url('../font/Helvetica/HelveticaNeueCyr-Light.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+    src: url('../font/Helvetica/HelveticaNeueCyr-Roman.eot');
+	src: local('☺'), url('../font/Helvetica/HelveticaNeueCyr-Roman.woff') format('woff'), url('../font/Helvetica/HelveticaNeueCyr-Roman.ttf') format('truetype');
+	font-weight: 450;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+    src: url('../font/Helvetica/HelveticaNeueCyr-Medium.eot');
+	src: local('☺'), url('../font/Helvetica/HelveticaNeueCyr-Medium.woff') format('woff'), url('../font/Helvetica/HelveticaNeueCyr-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
 body {
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 400;
     scroll-behavior: smooth;
 }
 
@@ -343,7 +368,7 @@ a {
 }
 
 .about_text {
-    width: 650px;
+    width: 580px;
     font-size: 20px;
     line-height: 32px;
     font-weight: 300;
@@ -366,7 +391,7 @@ a {
     font-size: 40px;
     line-height: 28px;
     color: #2B6ADE;
-    font-weight: 400;
+    font-weight: 450;
     margin-bottom: 9px;
     text-align: center;
 }
@@ -707,9 +732,9 @@ ul {
     background: #2B6ADE;
     border: #2B6ADE;
     padding: 15px 10px;
-    position: relative;
-    left: -4px;
-    top: -1px;
+    /* margin-left: -4px;
+    margin-top: 1px; */
+    position: absolute;
 }
 
 .footer_btn::placeholder {
