@@ -1,0 +1,184 @@
+body {
+    background-color: #FFFEFA !important;
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+    src: url('../../../assets/font/Helvetica/HelveticaNeueCyr-Medium.eot');
+	src: local('☺'), url('../../../assets/font/Helvetica/HelveticaNeueCyr-Light.woff') format('woff'), url('../../../assets/font/Helvetica/HelveticaNeueCyr-Light.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+    src: url('../../../assets/font/Helvetica/HelveticaNeueCyr-Roman.eot');
+	src: local('☺'), url('../../../assets/font/Helvetica/HelveticaNeueCyr-Roman.woff') format('woff'), url('../../../assets/font/Helvetica/HelveticaNeueCyr-Roman.ttf') format('truetype');
+	font-weight: 450;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+    src: url('../../../assets/font/Raleway/Raleway-Medium.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway';
+    src: url('../../../assets/font/Raleway/Raleway-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.lib_titile {
+    font-weight: 450;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.book_blocks {
+    display: flex;
+}
+
+.book_block {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.book_block:first-child {
+    margin-left: 0;
+}
+
+.book_img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.book_height {
+    height: 200px;
+}
+
+.book_name {
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Raleway';
+    margin-bottom: 10px;
+}
+
+.book_desc {
+    font-weight: 400;
+    color: #8D8C8C;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.grup_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book_download {
+    border: 1px solid #181A30;
+    box-sizing: border-box;
+    border-radius: 22px;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.book_download:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    color: black;
+}
+
+.sencond_title {
+    display: flex;
+    margin-top: 170px;
+    justify-content: space-between;
+}
+
+.arrow_slider {
+    margin-left: 10px;
+}
+
+.video_slider_group {
+    margin-top: 50px;
+    margin-left: -20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.video_slider {
+    width: 30%;
+}
+
+.video_slider:first-child {
+    margin-left: 0;
+}
+
+.video_show {
+    border-radius: 20px;
+    width: 410px;
+    height: 250px;
+}
+
+.vide_name {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+.video_title {
+    color: #8D8C8C;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.arrow_slider {
+    cursor: pointer;
+}
+
+.arrow_slider:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.arrow_slider:not(:hover) {
+    transition: .5s;
+}
+
+.video_slider:hover {
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+.video_slider:not(:hover) {
+    transition: .8s;
+}
+
+.footer_text {
+    font-family: 'Helvetica';
+    font-weight: 400;
+}
+
+.footer_title {
+    font-family: 'Helvetica';
+    font-weight: 500;
+}
