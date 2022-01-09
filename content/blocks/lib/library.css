@@ -215,3 +215,15 @@ body {
 .youtube:hover .play {
     background-position: 0 0;
 }
+
+@media(max-width:1400px) {
+
+    .book_img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .video_show {
+        width: 350px;
+    }
+}
