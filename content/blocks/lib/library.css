@@ -6,7 +6,7 @@ body {
 
 @font-face {
 	font-family: 'Helvetica';
-    src: url('../../../assets/font/Helvetica/HelveticaNeueCyr-Medium.eot');
+    src: url('../../../assets/font/Helvetica/HelveticaNeueCyr-Light.eof');
 	src: local('☺'), url('../../../assets/font/Helvetica/HelveticaNeueCyr-Light.woff') format('woff'), url('../../../assets/font/Helvetica/HelveticaNeueCyr-Light.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
@@ -94,14 +94,14 @@ body {
     color: black;
     text-decoration: none;
     font-family: 'Raleway';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
 }
 
 .book_download:hover {
-    transform: scale(1.1);
     transition: .5s;
-    color: black;
+    color: white;
+    background-color: #2B6ADE;
 }
 
 .sencond_title {
@@ -164,12 +164,12 @@ body {
     transition: .5s;
 }
 
-.video_slider:hover {
+.video_show:hover {
     transform: scale(1.1);
     transition: .8s;
 }
 
-.video_slider:not(:hover) {
+.video_show:not(:hover) {
     transition: .8s;
 }
 
@@ -181,4 +181,37 @@ body {
 .footer_title {
     font-family: 'Helvetica';
     font-weight: 500;
+}
+
+
+/* YOUTUBE */
+
+.youtube {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.youtube .play {
+    background: url('../../../assets/img/other/youtube-play-btn.png') no-repeat;
+    background-position: 0 -50px;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    position: absolute;
+    height: 50px;
+    width: 69px;
+    transition: none;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+.youtube:hover .play {
+    background-position: 0 0;
 }

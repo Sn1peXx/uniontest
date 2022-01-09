@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./library.css">
     <link rel="stylesheet" href="../../../assets/css/header/header-blue.css">
     <link rel="stylesheet" href="../../../assets/css/footer/footer-blue.css">
-    <link rel="stylesheet" href="../../../assets/css/animate.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Библиотека</title>
@@ -20,15 +19,15 @@
         <div class="container">
             <div class="nav_single">
                 <a href="../../../index.php" class="nav_logo">
-                    <img src="../../../assets/img/logo/logo__main(no border).png" width="160" alt="">
+                    <img src="../../../assets/img/logo/LOGO.svg" width="160" alt="">
                 </a>
                 <div class="nav_links">
-                    <a href="../personal-cabinet/personal-cabinet.php" class="nav_link_single active_nav">UnionHome</a>
-                    <a href="../profile/my-prfile.php" class="nav_link_single">Профиль</a>
-                    <a href="../lessons/lesson-main.php" class="nav_link_single">Обучение</a>
-                    <a href="../blocks/librar/library.php" class="nav_link_single">Библиотека</a>
-                    <a href="../community/community.php" class="nav_link_single">Сообщество</a>
-                    <a href="../license/help.php" class="nav_link_single">Помощь</a>
+                    <a href="../../personal-cabinet/personal-cabinet.php" class="nav_link_single active_nav">Обучение</a>
+                    <a href="../../profile/my-prfile.php" class="nav_link_single">Профиль</a>
+                    <a href="../../lessons/lesson-main.php" class="nav_link_single">Доступные курсы</a>
+                    <a href="../../blocks/librar/library.php" class="nav_link_single">Карьера</a>
+                    <a href="../../community/community.php" class="nav_link_single">UnionShop</a>
+                    <a href="../../license/help.php" class="nav_link_single">Помощь</a>
                 </div>
             </div>
         </div>
@@ -39,15 +38,15 @@
             <div class="header_short">
                 <div class="short_main">
                     <a href="#" class="short_round">
-                        <img class="icon_short_l" src="../../../assets/img/index-page/Filter Dropdown IconL.svg" alt="">
+                        <img class="icon_short_l" width="14" src="../../../assets/img/index-page/Filter Dropdown IconL.svg" alt="left arrow">
                     </a>
                     <div class="short_content">
                         <a href="../../personal-cabinet/personal-cabinet.php" class="short_link">UnionHome</a>
                         <a href="../../lessons/lesson-main.php" class="short_link">CourseHome</a>
-                        <a href="./library.php" class="short_link short_active">Библиотека</a>
+                        <a href="./library.html" class="short_link short_active">Библиотека</a>
                     </div>
                     <a href="#" class="short_round">
-                        <img class="icon_short_r" src="../../../assets/img/index-page/Filter Dropdown IconR.svg" alt="">
+                        <img class="icon_short_r" width="14" src="../../../assets/img/index-page/Filter Dropdown IconR.svg" alt="right arrow">
                     </a>
                 </div>
             </div>
@@ -187,23 +186,45 @@
                     <a href="../profile/records.php" class="footer_text">Планирование и <br> финансирование учебы</a>
                 </div>
             </div>
-            <!-- <div class="footer_links">
+            <div class="footer_links">
                 <a href="https://vk.com/public205861322">
-                    <img src="../../assets/img/index-page/vk.png" alt="vk" class="footer_link">
+                    <img src="../../../assets/img/social/akar-icons_vk-fill.svg" alt="vk" class="footer_link">
                 </a>
                 <a style="margin-left:50px" href="https://www.instagram.com/the.union.universe/">
-                    <img src="../../assets/img/index-page/inst.png" alt="instagram" class="footer_link">
+                    <img src="../../../assets/img/social/akar-icons_instagram-fill.svg" alt="instagram" class="footer_link">
                 </a>
                 <a style="margin-left:50px" href="https://t.me/union_universe">
-                    <img src="../../assets/img/index-page/telegram.png" alt="telegram" class="footer_link">
+                    <img src="../../../assets/img/social/akar-icons_telegram-fill.svg" alt="telegram" class="footer_link">
                 </a>
                 <a style="margin-left:50px" href="#">
-                    <img src="../../assets/img/index-page/facebook.png" alt="facebook" class="footer_link">
-                </a></div>  -->
+                    <img src="../../../assets/img/social/bi_youtube.svg" alt="facebook" class="footer_link">
+                </a>
+            </div> 
         </div>
     </footer>
 
     <script src="../../../js/modules/slider.js"></script>
+    <script>
+        const btns = document.querySelectorAll('.book_download');
+
+        btns.forEach(item => {
+            item.addEventListener('click', () => {
+                item.style.transform = 'scale(1.3)';
+                item.style.transition = '0.4s';
+                item.style.backgroundColor = '#2B6ADE';
+                item.style.color = 'white';
+
+                setTimeout(() => {
+                    item.style.transform = 'scale(1)';
+                    item.style.transition = '0.4s';
+                    item.style.backgroundColor = 'white';
+                    item.style.color = 'black';
+                }, 1000);
+            });
+
+            
+        })
+    </script>
 </body>
 
 </html>

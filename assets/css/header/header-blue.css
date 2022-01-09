@@ -23,7 +23,7 @@
 
 .nav_link_single {
     font-weight: 300;
-    margin-left: 25px;
+    margin-left: 45px;
     text-decoration: none;
     color: white;
     font-size: 17px;
@@ -43,6 +43,7 @@
 }
 
 .nav_link_single:hover {
+    transition: .2s;
     color: #C2E811;
 }
 
@@ -54,7 +55,7 @@
     background-color: #FFFEFA;
     height: 80px;
     width: 100%;
-    margin: 0 auto;
+    margin-left: 0 auto;
 }
 
 .new_color {
@@ -63,7 +64,7 @@
 
 .short_main {
     height: 80px;
-    margin-left: 27px;
+    margin-left: 14px;
     display: flex;
     align-items: center;
 }
@@ -110,6 +111,7 @@
 }
 
 .short_link:hover {
+    transition: .3s;
     color: white;
     background-color: #2B6ADE;
 }

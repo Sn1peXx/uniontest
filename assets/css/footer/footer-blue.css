@@ -19,7 +19,6 @@
 
 .footer_logo {
     margin-right: 40px;
-    padding-bottom: 150px;
 }
 
 .footer_text {
@@ -28,6 +27,11 @@
     font-weight: 300;
     color: white;
     text-decoration: none;
+}
+
+.footer_text:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .footer_top {
@@ -75,8 +79,8 @@
 }
 
 .footer_links {
-    margin-left: 70px;
-    margin-top: 40px;
+    margin-left: 300px;
+    margin-top: 10px;
     padding-bottom: 40px;
 }
 
@@ -90,4 +94,13 @@
 
 .footer_link:first-child {
     margin-left: 0px;
+}
+
+.footer_link:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.footer_link:not(:hover) {
+    transition: .4s;
 }
