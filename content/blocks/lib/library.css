@@ -227,3 +227,43 @@ body {
         width: 350px;
     }
 }
+
+@media(max-width:1200px) {
+    .book_img {
+        width: 300px;
+        height: 220px;
+    }
+
+    .video_show {
+        width: 300px;
+        height: 200px;
+    }
+
+    .book_desc {
+        font-size: 17px;
+    }
+
+    .book_download {
+        font-size: 16px;
+        padding: 9px 23px;
+    }
+
+    .nav_link_single {
+        margin-left: 25px !important;
+        font-size: 17px !important;
+    }
+
+    .lib_titile {
+        margin-bottom: 25px;
+        margin-top: 70px;
+    }
+
+    .grup_btn {
+        margin-top: 25px;
+    }
+
+    .footer_links {
+        margin-left: 235px !important;
+    }
+    
+}
