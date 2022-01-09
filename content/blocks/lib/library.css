@@ -256,14 +256,19 @@ body {
     .lib_titile {
         margin-bottom: 25px;
         margin-top: 70px;
-    }
-
-    .grup_btn {
-        margin-top: 25px;
+        font-size: 30px;
     }
 
     .footer_links {
         margin-left: 235px !important;
     }
     
+    .book_name {
+        font-size: 22px;
+    }
+
+    .video_title {
+        font-size: 17px;
+    }
+
 }
